@@ -165,6 +165,12 @@ class SafeTx:
             },
         }
 
+        # Safes >= 1.3.1 Added `chainId` to the domain
+        if safe_version >= Version('1.3.1'):
+            # EIP712Domain(uint256 chainId,address verifyingContract)
+            structured_data['types']['EIP712Domain'].insert(0, {'name': 'chainId', 'type': 'uint256'})
+            structured_data['domain']['chainId'] = self.chain_id
+
         return HexBytes(encode_typed_data(structured_data))
 
     @property
