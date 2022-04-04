@@ -31,7 +31,7 @@ jobs:
     - name: Create virtualenv
       run: |
         python -m venv venv
-    - uses: actions/cache@v2
+    - uses: actions/cache@v3.0.1
       id: cache-pip
       with:
         path: ./venv
