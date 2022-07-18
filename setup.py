@@ -23,8 +23,8 @@ extras_require = {
 }
 
 setup(
-    name='gnosis-yodaplus-py',
-    version='3.1.19',
+    name='yodaplus-py',
+    version='0.9.0',
     packages=find_packages(),
     package_data={'gnosis': ['py.typed']},
     install_requires=requirements,
@@ -32,12 +32,12 @@ setup(
     extras_require=extras_require,
     python_requires='>=3.7',
     license='MIT License',
-    description='Gnosis libraries for Python Projects',
+    description='Yodaplus libraries for Python Projects',
     long_description=README,
-    url='https://github.com/gnosis/gnosis-py',
-    author='Uxío',
-    author_email='uxio@gnosis.pm',
-    keywords=['ethereum', 'django', 'rest', 'gnosis'],
+    url='https://github.com/yodaplus/gnosis-py',
+    author='Yodaplus',
+    author_email='hello@yodaplus.com',
+    keywords=['xdc', 'django', 'rest', 'yplusvault'],
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
