@@ -24,7 +24,7 @@ extras_require = {
 
 setup(
     name='yodaplus-py',
-    version='0.9.0',
+    version='0.9.1',
     packages=find_packages(),
     package_data={'gnosis': ['py.typed']},
     install_requires=requirements,
