@@ -1,13 +1,11 @@
 Yodaplus-py
-#########
+###########
 
 .. class:: no-web no-pdf
 
-|ci| |coveralls| |python| |django| |pipy| |readthedocs|
+|python| |django| |pipy| |readthedocs|
 
-Yodaplus-py is a fork of Gnosis-py customized for XDC network. 
-
-It includes a set of libraries to work with XDC and Yodaplus projects. Currently active ones are:
+Yodaplus-py, a fork of gnosis-py, includes a set of libraries to work with XDC and Yodaplus projects. 
   - `EthereumClient`, a wrapper over Web3.py `Web3` client including utilities to deal with ERC20/721
     tokens and tracing.
   - `Yplus Vault <https://github.com/yodaplus/gnosis-safe-contracts>`_ classes and utilities.
@@ -84,8 +82,6 @@ It includes:
 - **gnosis.eth.django.validators**: Ethereum related validators.
 - **gnosis.safe.serializers**: Serializers for Gnosis Safe (signature, transaction...).
 - All the tests are written using Django Test suite.
-
-
 
 .. |python| image:: https://img.shields.io/badge/Python-3.9-blue.svg
     :alt: Python 3.9
